@@ -1,10 +1,7 @@
 <?php
-  require_once 'Interfaces/IShape.php';
+  require_once 'Shape.php';
 
-  abstract class CircularShape implements IShape {
+  abstract class CircularShape extends Shape {
     private $radius;
-
-    abstract public function computePerimeter();
-    abstract public function computeSurface();
   }
 ?>

@@ -1,11 +1,8 @@
 <?php
-  include '../Interfaces/IShape.php';
+  require_once 'Shape.php';
 
-  abstract class QuadrilateralShape implements IShape {
+  abstract class QuadrilateralShape extends Shape {
     private $height;
     private $width;
-
-    abstract public function computePerimeter();
-    abstract public function computeSurface();
   }
 ?>
