@@ -5,7 +5,7 @@
     private $height;
 
     function __construct($_height) {
-      echo(sprintf("Creating a Square shape height and width of %d.".PHP_EOL, $_height));
+      echo(sprintf("Creating a Square shape height and width of %.02f.".PHP_EOL, $_height));
       $this->height = $_height;
 
     }

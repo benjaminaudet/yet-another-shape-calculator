@@ -5,7 +5,7 @@
     private $radius;
 
     function __construct($_radius) {
-      echo(sprintf("Creating an Disk shape with a radius of %d.".PHP_EOL, $_radius));
+      echo(sprintf("Creating an Disk shape with a radius of %.02f.".PHP_EOL, $_radius));
       $this->radius = $_radius;
 
     }
