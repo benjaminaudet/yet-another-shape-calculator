@@ -1,7 +1,7 @@
 <?php
-  require_once 'Abstract/QuadrilateralShape.php';
+  require_once 'Abstract/Quadrilateral.php';
 
-  class RectangleShape extends QuadrilateralShape {
+  class Rectangle extends Quadrilateral {
     private $height;
     private $width;
 

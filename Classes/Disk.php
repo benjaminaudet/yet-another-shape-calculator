@@ -1,7 +1,7 @@
 <?php
-  require_once 'Abstract/CircularShape.php';
+  require_once 'Abstract/Circular.php';
 
-  class DiskShape extends CircularShape {
+  class Disk extends Circular {
     private $radius;
 
     function __construct($_radius) {

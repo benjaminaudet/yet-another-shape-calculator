@@ -1,7 +1,7 @@
 <?php
   require_once 'Shape.php';
 
-  abstract class TriangleShape extends Shape {
+  abstract class Triangle extends Shape {
     private $a;
     private $b;
   }

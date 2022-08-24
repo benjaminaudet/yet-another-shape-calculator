@@ -1,7 +1,7 @@
 <?php
   require_once 'Shape.php';
 
-  abstract class CircularShape extends Shape {
+  abstract class Circular extends Shape {
     private $radius;
   }
 ?>

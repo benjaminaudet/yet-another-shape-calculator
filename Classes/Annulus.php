@@ -1,7 +1,7 @@
 <?php
-  require_once 'Abstract/CircularShape.php';
+  require_once 'Abstract/Circular.php';
 
-  class AnnulusShape extends CircularShape {
+  class Annulus extends Circular {
     private $radius;
     private $innerRadius;
 

@@ -1,7 +1,7 @@
 <?php
-  require_once 'Abstract/TriangleShape.php';
+  require_once 'Abstract/Triangle.php';
 
-  class RightTriangleShape extends TriangleShape {
+  class RightTriangle extends Triangle {
     private $a;
     private $b;
     private $h;

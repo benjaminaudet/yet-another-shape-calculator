@@ -1,30 +1,30 @@
 <?php
-  require_once 'Classes/AnnulusShape.php';
-  require_once 'Classes/DiskShape.php';
-  require_once 'Classes/SquareShape.php';
-  require_once 'Classes/RectangleShape.php';
-  require_once 'Classes/RightTriangleShape.php';
-  require_once 'Classes/IsoscelesTriangleShape.php';
-  require_once 'Classes/GeneralTriangleShape.php';
+  require_once 'Classes/Annulus.php';
+  require_once 'Classes/Disk.php';
+  require_once 'Classes/Square.php';
+  require_once 'Classes/Rectangle.php';
+  require_once 'Classes/RightTriangle.php';
+  require_once 'Classes/IsoscelesTriangle.php';
+  require_once 'Classes/GeneralTriangle.php';
 
-  $annulus = new AnnulusShape(5, 3);
+  $annulus = new Annulus(5, 3);
   $annulus->dump();
   
-  $disk = new DiskShape(5);
+  $disk = new Disk(5);
   $disk->dump();
 
-  $square = new SquareShape(5);
+  $square = new Square(5);
   $square->dump();
 
-  $rectangle = new RectangleShape(5, 4);
+  $rectangle = new Rectangle(5, 4);
   $rectangle->dump();
 
-  $rightTriangle = new RightTriangleShape(12, 8);
+  $rightTriangle = new RightTriangle(12, 8);
   $rightTriangle->dump();
 
-  $isoscelesTriangleShape = new IsoscelesTriangleShape(12, 8);
+  $isoscelesTriangleShape = new IsoscelesTriangle(12, 8);
   $isoscelesTriangleShape->dump();
 
-  $generalTriangleShape = new GeneralTriangleShape(12, 8, 5);
+  $generalTriangleShape = new GeneralTriangle(12, 8, 5);
   $generalTriangleShape->dump();
 ?>

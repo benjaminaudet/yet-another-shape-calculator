@@ -1,7 +1,7 @@
 <?php
   require_once 'Shape.php';
 
-  abstract class QuadrilateralShape extends Shape {
+  abstract class Quadrilateral extends Shape {
     private $height;
     private $width;
   }
