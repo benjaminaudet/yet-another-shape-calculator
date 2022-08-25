@@ -36,9 +36,9 @@ Type "help" to learn the command format.
 example : `annulus 5 3`
 * The Disk shape requires 1 argument : a radius  
 example : `disk 5`
-* The Square shape requires 1 argument : a side's length 
+* The Square shape requires 1 argument : a side's length  
 example : `square 5`
-* The Rectangle shape requires 2 arguments : the two sides' length  
+* The Rectangle shape requires 2 arguments : the two sides' length   
 example : `rectangle 5 4`
 * The Right Triangle shape requires 2 arguments : the two sides' length (not including hypotenuse).  
 example : `right_triangle 5 3`
