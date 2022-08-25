@@ -1,6 +1,10 @@
 <?php
   require_once 'Abstract/Triangle.php';
 
+  // This class represents a General Triangle Geometrical Shape.
+  // $a is the length of the first side of the triangle.
+  // $b is the length of the second side of the triangle.
+  // $c is the length of the third side of the triangle.
   class GeneralTriangle extends Triangle {
     private $a;
     private $b;

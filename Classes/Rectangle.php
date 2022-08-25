@@ -1,6 +1,9 @@
 <?php
   require_once 'Abstract/Quadrilateral.php';
 
+  // This class represents a Rectangle Geometrical Shape.
+  // $height is the length of two sides of the rectangle.
+  // $b is the length of the two other sides of the rectangle.
   class Rectangle extends Quadrilateral {
     private $height;
     private $width;

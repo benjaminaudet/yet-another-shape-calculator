@@ -1,6 +1,11 @@
 <?php
   require_once 'Abstract/Circular.php';
 
+  // This class represents an Annulus Geometrical Shape.
+  // $radius is the outer circle's radius.
+  // $innerRadius is the inner circle's radius.
+  // On this implementation, I chose to throw an error
+  // when the $innerRadius is detected to be greater than the $radius.
   class Annulus extends Circular {
     private $radius;
     private $innerRadius;

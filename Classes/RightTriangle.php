@@ -1,6 +1,10 @@
 <?php
   require_once 'Abstract/Triangle.php';
 
+  // This class represents a RightTriangle Geometrical Shape.
+  // $a is the length of the first side of the triangle.
+  // $b is the length of the second side of the triangle.
+  // $h is the hypotenuse of the triangle, computed based on $a and $b.
   class RightTriangle extends Triangle {
     private $a;
     private $b;

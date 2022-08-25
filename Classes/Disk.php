@@ -1,6 +1,8 @@
 <?php
   require_once 'Abstract/Circular.php';
 
+  // This class represents a Disk Geometrical Shape.
+  // $radius is the disk's radius.
   class Disk extends Circular {
     private $radius;
 
@@ -13,7 +15,7 @@
     public function computePerimeter() {
       return $this->radius * M_PI * 2;
     }
-    
+
     public function computeSurface() {
       return M_PI * pow($this->radius, 2);
     }

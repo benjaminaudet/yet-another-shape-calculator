@@ -1,6 +1,9 @@
 <?php
   require_once 'Abstract/Triangle.php';
 
+  // This class represents a Isosceles Triangle Geometrical Shape.
+  // $a is the length of two equal sides of the triangle.
+  // $b is the length of the third/base side of the triangle.
   class IsoscelesTriangle extends Triangle {
     private $a;
     private $b;

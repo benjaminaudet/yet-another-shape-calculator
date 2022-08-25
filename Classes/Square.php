@@ -1,6 +1,8 @@
 <?php
   require_once 'Abstract/Quadrilateral.php';
 
+  // This class represents a Square Geometrical Shape.
+  // $height is the length of the four sides of the square.
   class Square extends Quadrilateral {
     private $height;
 
