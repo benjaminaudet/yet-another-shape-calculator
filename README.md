@@ -34,7 +34,7 @@ Type "help" to learn the command format.
 
 * The Annulus shape requires 2 arguments : a radius and an innerRadius (the innerRadius cannot be greater than the radius)
 example : `annulus 5 3`
-* The Disk shape requires 1 argument : a radius
+* The Disk shape requires 1 argument : a radius  
 example : `disk 5`
 * The Square shape requires 1 argument : a side's length
 example : `square 5`
