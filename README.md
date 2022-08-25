@@ -4,15 +4,15 @@ This project is a PHP7 project that gathers a class system in order to compute 2
 
 ## Requires
 
-This project has been developed and tested to work with PHP7.
-So make sure you are using PHP7 while testing it.
+This project has been developed and tested to work with PHP7.  
+So, please, make sure you are using PHP7 while testing it.
 
 ## Run
 
 These commands works with zsh on Ubuntu 22.04 on WSL 2.
 
-`git clone git@github.com:benjaminaudet/yet-another-shape-calculator.git`
-`php7.0 main.php`
+`$ git clone git@github.com:benjaminaudet/yet-another-shape-calculator.git`  
+`$ php7.0 main.php`
 
 ## Explanation
 
@@ -27,7 +27,7 @@ This program can compute perimeter and area of several geometrical shapes:
 
 ## How to use
 
-The program has a console input where you can type a command.
+The program has a console input where you can type a command.  
 Type "help" to learn the command format.
 
 ## Constraints of execution
