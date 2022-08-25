@@ -3,6 +3,5 @@
 
   abstract class Quadrilateral extends Shape {
     private $height;
-    private $width;
   }
 ?>
